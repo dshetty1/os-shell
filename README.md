@@ -1,12 +1,12 @@
 # os-shell
 Basic Operating System Shell
 
-### Description
+### Description:
 
-Replicates an operating system shell that waits for a command to be entered from a prespecified list. If the command is a built-in command, a process will execute it. If not, then it forks a new process and uses execve to make this new child process morph to the new process. If the user types the word “exit” then the program ends. Otherwise, another iteration will be executed. 
+Replicates an operating system shell that waits for a command to be entered from a prespecified list. If the command is a built-in command, a process will execute it. If not, then a combination of fork(), execve(), and wait() will create a new child process, execute the command, and terminate the child process. If the user types the word “exit” then the program ends. Otherwise, another iteration will be executed. 
 
 
-### Input and Output
+### Input and Output:
 
 List of prespecified commands:
 
