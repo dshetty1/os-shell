@@ -12,7 +12,7 @@ List of prespecified commands:
 
 - printid -  prints the id of the current process
 - exit - ends the program and exits
-- greet - prints “Hello\n”
+- greet - prints “Hello"
 - ls -  lists the files in the current directory
 - pwd - prints the path of the current working directory
 - ps - prints the status of the current processes
