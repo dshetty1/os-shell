@@ -42,7 +42,6 @@ int main(int argc, char * argv[])
         Not a predefined, built-in command
         Runs a linux command
         */
-
             // Fork a new process
             pid_t pid = fork();
 
